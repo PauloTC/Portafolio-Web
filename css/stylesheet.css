@@ -1,0 +1,9 @@
+header{
+	background-color: green;
+	text-align: center;
+	color: red;
+}
+ul{
+	text-decoration: none;
+	display: inline-block;
+}
