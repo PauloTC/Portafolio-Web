@@ -9,7 +9,7 @@
 }
 /* MAINMENU*/
 .MainMenu{
-	background-color: #1E1E1E;
+	background-color: orange;
 	text-align: center;
 	height: 3.75em;
 	position: fixed;
@@ -23,12 +23,22 @@
 }
 .MainMenu-item{
 	display: inline-block;
+
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+}
+.MainMenu-item:hover{
+	background-color: #1d1d1d;
+	color:  #e44e2d;
 }
 .MainMenu-link{
 	color: #00DBFF;
 	text-decoration: none;
 	line-height: 3.75em;
 	margin-right: 1.5em;
+	margin-left: 1.5em;
 }
 /* HEADER*/
 
