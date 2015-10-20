@@ -3,37 +3,38 @@
 	<head>
 		<title>FrontPlatzi</title>
 		<meta charset="utf-8" />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	</head>
 	<body>
 		<header class="Header">
 			<nav class="MainMenu">
-				<ul>
+				<ul class="MainMenu-list">
 					<li class="MainMenu-item">
 						<a class="MainMenu-link" href="#yo">Yo</a>
 					</li>
-					<li class="Main-item">
+					<li class="MainMenu-item">
 						<a class="MainMenu-link" href="#perfil">Perfil</a>
 					</li>
-					<li class="Main-item">
+					<li class="MainMenu-item">
 						<a class="MainMenu-link" href="#trabajo">Trabajo</a>
 					</li>
-					<li class="Main-item">
+					<li class="MainMenu-item">
 						<a class="MainMenu-link" href="#contacto">Contacto</a>
 					</li>
 				</ul>
 			</nav>
 			<figure class="Header-imageContainer">
-				<img src="avatar.jpg" alt="Imagen personal" />
+				<img src="images/avatar.jpg" alt="Imagen personal" class="Header-image" />
 				<figcaption class="Header-imageDescription">
-					<a class ="Header-link "href="https://twitter.com/Backertend" target="_blanck">Twitter</a>
+					<a class ="Header-link "href="https://twitter.com/Backertend" target="_blanck">@Backertend</a>
 				</figcaption>
 				<p class="Header-name">Paulo Tejada</p>
 			</figure>
 		</header>
-		<section>
-			<h2 class="Profil-title">Mi perfil</h2>
+		<section class="Profile">
+			<h2 class="Profile-tittle, u-tittle">Mi perfil</h2>
 			<p class="Profile-description">
 				Hola, este es mi portafolio web.
 			</p>
@@ -41,53 +42,55 @@
 			<a class="Profile-link" href="https://twitter.com/Backertend" target="_blanck">LinkedIN</a>
 			<a class="Profile-link" href="https://twitter.com/Backertend" target="_blanck">Blog Personal</a>
 		</section>
-		<section>
-			<h2>Mi trabajo</h2>
-			<article>
-				<figure>
-					<img src="" alt="Esta es la descripcion de mi imagen">
-					<figcaption>Portafolio web</figcaption>
+		<section class="Work">
+			<h2 class="Work-tittle, u-tittle">Mi trabajo</h2>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="images/proyecto.jpg" alt="Esta es la descripcion de mi imagen">
+					<figcaption class="Work-descrption">Portafolio web</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
-					<img src="" alt="Esta es la descripcion de mi imagen">
-					<figcaption>Portafolio web</figcaption>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="images/proyecto.jpg" alt="Esta es la descripcion de mi imagen">
+					<figcaption class="Work-descrption">Portafolio web</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
-					<img src="" alt="Esta es la descripcion de mi imagen">
-					<figcaption>Portafolio web</figcaption>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="images/proyecto.jpg" alt="Esta es la descripcion de mi imagen">
+					<figcaption class="Work-descrption">Portafolio web</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
-					<img src="" alt="Esta es la descripcion de mi imagen">
-					<figcaption>Portafolio web</figcaption>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="images/proyecto.jpg" alt="Esta es la descripcion de mi imagen">
+					<figcaption class="Work-descrption">Portafolio web</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
-					<img src="" alt="Esta es la descripcion de mi imagen">
-					<figcaption>Portafolio web</figcaption>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="images/proyecto.jpg" alt="Esta es la descripcion de mi imagen">
+					<figcaption class="Work-descrption">Portafolio web</figcaption>
 				</figure>
 			</article>
-			<article>
-				<figure>
-					<img src="" alt="Esta es la descripcion de mi imagen">
-					<figcaption>Portafolio web</figcaption>
+			<article class="Work-item">
+				<figure class="Work-imageContainer">
+					<img class="Work-image" src="images/proyecto.jpg" alt="Esta es la descripcion de mi imagen">
+					<figcaption class="Work-descrption">Portafolio web</figcaption>
 				</figure>
 			</article>
 		</section>
-		<footer>
-			<h3>Contacto</h3>
-			<p>Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
-			<form>
-				<input type="text" placeholder="Nombre"/>
-				<input type="email" placeholder="E-mail"/>
-				<textarea placeholder="Motivo"></textarea>
-				<button type ="submit">Contactarme</button>
+		<footer class="Footer">
+			<div class="Footer-left">
+				<h3 class="Footer-tittle">Contacto</h3>
+				<p class="Footer-description">Si tienes una sugerencia o quieres trabajar conmigo ponte en contacto con este formulario</p>
+			</div>
+			<form class="footer-form">
+				<input class="Footer-formImput" type="text" placeholder="Nombre"/>
+				<input class="Footer-formImput" type="email" placeholder="E-mail"/>
+				<textarea class="Footer-textArea" placeholder="Motivo"></textarea>
+				<button type ="submit" class="Footer-button">Contactarme</button>
 			</form>
 		</footer>
 	</body>
