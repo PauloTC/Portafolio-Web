@@ -1,0 +1,148 @@
+/*UTILIDADES*/
+.u-tittle{
+	color: #00DBFF;
+	border-bottom: 2px dashed #00CCFF;
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: .5em;
+}
+/* MAINMENU*/
+.MainMenu{
+	background-color: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+.MainMenu-list{
+	margin: 0px;
+	padding: 0px;
+}
+.MainMenu-item{
+	display: inline-block;
+}
+.MainMenu-link{
+	color: #00DBFF;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+}
+/* HEADER*/
+
+.Header{
+	margin-top: 3.75em;
+	background-image: url('../images/portada-3.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1.2em;
+}
+.Header-imageContainer{
+
+}
+.Header-image{
+	border:5px solid #191970;
+	border-radius: 80%;
+}
+.Header-name, 
+.Header-link{
+	color: white;
+}
+.Header-link{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Header-name{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0px;
+}
+/* PROFILE*/
+
+.Profile{
+	text-align: center;
+}
+.Profile-link{
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+	padding: .5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;
+}
+/* WORK*/
+.Work{
+	margin-top: 2em;
+	text-align: center;
+}
+.Work-item{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+.Work-imageContainer{
+	margin:0;
+}
+.Work-descrption{
+	font-size: 1.1em;
+	color: #515151;
+	font-style: italic;
+}
+/* footer*/
+.Footer{
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 2em 0;
+	text-align: center;
+}
+.footer-form{
+	text-align: center;
+	display: inline-block;
+}
+.Footer-left{
+	text-align: center;
+	display: inline-block;
+	width: 32em;
+	vertical-align: top;
+}
+.Footer-tittle{
+	color: white;
+	font-size: 1.5em;
+}
+.Footer-formImput,
+.Footer-textArea{
+	background-color: white;
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .5em;
+	margin: 0 auto 1em;
+}
+.Footer-textarea{
+	resize:none;
+}
+.Footer-button{
+	background-color: orange;
+	color: white;
+	border-radius: 1em;
+	padding: .5em 1em;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
